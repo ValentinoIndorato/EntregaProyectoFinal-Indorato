@@ -476,9 +476,17 @@ body {
   margin-top: 2rem;
 }
 .h1Ycarousel .tamanio {
+  width: 20rem;
+}
+.h1Ycarousel .tamanio1 {
+  width: auto;
   margin: 0;
-  width: 25%;
-  height: auto;
+}
+.h1Ycarousel .tamanio1 .tamanio2 {
+  width: 100%;
+}
+.h1Ycarousel .tamanio1 .tamanio2 .tamanio3 {
+  width: 100%;
 }
 
 /*-----mainproductos----*/

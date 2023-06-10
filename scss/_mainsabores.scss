@@ -119,11 +119,18 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 2rem ;
+        margin-top: 2rem;
         .tamanio {
-                margin: 0;
-                width: 25%;
-                height: auto;
+                width: 20rem;
         }
-       
+        .tamanio1 {
+                width: auto;
+                margin: 0;
+                .tamanio2 {
+                        width: 100%;
+                        .tamanio3 {
+                                width: 100%;
+                        }
+                }
+        }
 }

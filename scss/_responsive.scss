@@ -1,8 +1,8 @@
-/*-----max 426----*/
+/*-----MAX 426-----------------------------------------------------*/
 @media screen and (max-width: 426px) {
     body {
         background-color: rgb(255, 251, 130);
-
+        /*-----INDEX MAX 426-----------------------------------------------------*/
         .indexNuevo {
             .section__indexNuevo {
                 .p__indexNuevo {
@@ -17,6 +17,7 @@
                 }
             }
         }
+        /*-----SABORES MAX 426-----------------------------------------------------*/
         .cardSabores {
             section {
                 height: 15rem;
@@ -28,6 +29,7 @@
                 }
             }
         }
+        /*-----PRODUCTOS MAX 426-----------------------------------------------------*/
         .productos3 {
             .productos3__div {
                 p {
@@ -52,6 +54,7 @@
                 }
             }
         }
+        /*-----CAFETERIA MAX 426-----------------------------------------------------*/
         .cafeteriaArticle {
             margin: 0;
             display: flex;
@@ -70,6 +73,7 @@
                 }
             }
         }
+        /*-----DELIVERY MAX 426-----------------------------------------------------*/
         .DeliveryMain {
             h2 {
                 text-align: center;
@@ -80,7 +84,7 @@
         }
     }
 }
-/*-----min 445----*/
+/*-----MIN 445-------------------------------------------------*/
 @media screen and (max-width: 445px) {
     .indexNuevo {
         .section__indexNuevo {
@@ -98,16 +102,17 @@
         }
     }
 }
-/*-----min 992----*/
+/*-----MIN 992-------------------------------------------------*/
 @media screen and (min-width: 992px) {
     body {
         background-color: rgb(253, 228, 2);
     }
 }
 
-/*-----max 991 ----*/
+/*-----MAX 991-------------------------------------------------*/
 @media screen and (max-width: 991px) {
     body {
+        /*-----SABORES MAX 991-------------------------------------------------*/
         .cardSabores {
             section {
                 height: 15rem;
@@ -119,9 +124,11 @@
                 }
             }
         }
+        /*-----PRODUCTOS MAX 991-------------------------------------------------*/
         .productosGeneral {
             display: flex;
             flex-wrap: wrap;
+            /*-----PRODUCTO1 MAX 991----------*/
             .producto1 {
                 width: 100%;
                 padding: 0;
@@ -137,6 +144,7 @@
                     }
                 }
             }
+            /*-----PRODUCTO2 MAX 991----------*/
             .productos2 {
                 .productos2__div {
                     .productos2__div__card {
@@ -171,6 +179,7 @@
                     }
                 }
             }
+            /*-----PRODUCTO3 MAX 991----------*/
             .productos3 {
                 .productos3__div {
                     .productos3__div__card {
@@ -187,6 +196,7 @@
                 }
             }
         }
+        /*-----CAFETERIA MAX 991-------------------------------------------------*/
         .cafeteriaArticle {
             margin: 0;
             display: flex;

@@ -1,3 +1,4 @@
+/*-----H1 CAFETERIA-----------------------------------------------------*/
 .h1Cafeteria {
   margin: 0 0 0 1rem;
   -webkit-animation: wobble-hor-bottom 0.8s both;
@@ -61,7 +62,7 @@
     transform: translateX(-6px) rotate(-1.2deg);
   }
 }
-
+/*-----CAFETERIA CUERPO-----------------------------------------------------*/
 .caferiaCuerpo {
   margin: 4% 0 9rem 0;
   .cafeteria {
@@ -103,6 +104,7 @@
     }
   }
 }
+/*-----TEXTO-HOVER-----------------------------------------------------*/
 .texto-hover:hover {
   color: $color-amarillo;
 

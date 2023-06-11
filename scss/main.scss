@@ -4,9 +4,9 @@ body {
     font-weight: 600;
     font-size: 100%;
 }
-/*-----VARIABLES----*/
+/*-----VARIABLES-------------------------------------------------*/
 @import "_variables.scss";
-/*-----Navbar----*/
+/*-----Navbar-------------------------------------------------*/
 .navbarp {
     background-color: rgb(210, 105, 30);
     /*31px*/
@@ -42,29 +42,29 @@ body {
         }
     }
 }
-
+/*-----LETRA LOGO-----------------------------------------------------*/
 .letralogo {
     font-size: 5rem;
     color: rgb(253, 245, 2);
     font-weight: 400;
 }
-/*-----_slider----*/
+/*-----_slider-----------------------------------------------------*/
 @import "_slider.scss";
-/*-----_mainindex----*/
+/*-----_mainindex-----------------------------------------------------*/
 @import "_mainindex.scss";
-/*-----mainpromociones----*/
+/*-----mainpromociones-----------------------------------------------------*/
 @import "_mainpromociones.scss";
-/*-----mainsabores----*/
+/*-----mainsabores-----------------------------------------------------*/
 @import "_mainsabores.scss";
-/*-----mainproductos----*/
+/*-----mainproductos-----------------------------------------------------*/
 @import "_mainproductos.scss";
-/*-----maincafeteria----*/
+/*-----maincafeteria-----------------------------------------------------*/
 @import "_maincafeteria.scss";
-/*-----_maindelivery----*/
+/*-----_maindelivery-----------------------------------------------------*/
 @import "_maindelivery.scss";
-/*-----_footer----*/
+/*-----_footer-----------------------------------------------------*/
 @import "_footer.scss";
-/*-----_404----*/
+/*-----_404-----------------------------------------------------*/
 @import "_404.scss";
-/*-----_responsive----*/
+/*-----_responsive-----------------------------------------------------*/
 @import "_responsive.scss";

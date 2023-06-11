@@ -1,3 +1,4 @@
+/*-----H1 SABORES-----------------------------------------------------*/
 .h1Sabores {
         margin: 2rem 0 3rem 1rem;
         -webkit-animation: heartbeat 1.5s 3s ease-in-out infinite both;
@@ -71,7 +72,7 @@
                 animation-timing-function: ease-out;
         }
 }
-
+/*-----SABORES-----------------------------------------------------*/
 .sabores {
         display: flex;
         justify-content: space-evenly;
@@ -113,7 +114,7 @@
                 }
         }
 }
-
+/*-----h1 Y CAROUSEL-----------------------------------------------------*/
 .h1Ycarousel {
         display: flex;
         flex-wrap: wrap;

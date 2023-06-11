@@ -1,3 +1,4 @@
+/*-----H1 PRODUCTOS-----------------------------------------------------*/
 .h1Productos {
     margin: 0 0 0 0.5rem;
     -webkit-animation: bounce-top 2s 0.5s both;
@@ -107,6 +108,7 @@
         opacity: 1;
     }
 }
+/*-----OL UL Y LI-----------------------------------------------------*/
 ol,
 ul,
 li {
@@ -115,7 +117,7 @@ li {
     padding: 0;
     font-size: 18px;
 }
-/*PARA ELEGIR---------------------------------*/
+/*-----PARA ELEGIR-----------------------------------------------------*/
 .paraelegir {
     text-align: center;
     margin: 5rem 0 1rem 0;
@@ -150,6 +152,7 @@ li {
             }
         }
     }
+    /*-----HOVER-----------------------------------------------------*/
     &:hover {
         h2 {
             text-decoration: underline;
@@ -157,7 +160,7 @@ li {
         }
     }
 }
-/*GRID AREA---------------------------------*/
+/*-----GRID AREA-----------------------------------------------------*/
 .bochagrid {
     grid-area: bochagrid;
     display: flex;
@@ -165,6 +168,7 @@ li {
     align-items: center;
     div {
         margin: 1rem;
+        /*-----HOVER GRID AREA-----------------------------------------------------*/
         .precio-hover:hover {
             border-radius: 50%;
             border-bottom-width: thin;
@@ -172,6 +176,7 @@ li {
             border-bottom-color: black;
         }
     }
+    /*-----HOVER GRID AREA-----------------------------------------------------*/
     &:hover {
         div {
             .precio-hover {
@@ -183,6 +188,7 @@ li {
         }
     }
 }
+/*-----2 BOCHAS GRID AREA-----------------------------------------------------*/
 .dosbochasgrid {
     grid-area: dosbochasgrid;
     display: flex;
@@ -209,6 +215,7 @@ li {
         }
     }
 }
+/*-----TRES BOCHAS GRID AREA-----------------------------------------------------*/
 .tresbochasgrid {
     grid-area: tresbochasgrid;
     display: flex;
@@ -234,6 +241,7 @@ li {
         }
     }
 }
+/*-----BARQUILLO GRID AREA-----------------------------------------------------*/
 .barquillogrid {
     grid-area: barquillogrid;
     display: flex;
@@ -261,6 +269,7 @@ li {
         }
     }
 }
+/*-----PINITO GRID AREA-----------------------------------------------------*/
 .pinitogrid {
     grid-area: pinitogrid;
     display: flex;
@@ -288,6 +297,7 @@ li {
         }
     }
 }
+/*-----1/4 GRID AREA-----------------------------------------------------*/
 .cuartokgrid {
     grid-area: cuartokgrid;
     display: flex;
@@ -313,6 +323,7 @@ li {
         }
     }
 }
+/*-----1/2 GRID AREA-----------------------------------------------------*/
 .mediokgrid {
     grid-area: mediokgrid;
     display: flex;
@@ -338,6 +349,7 @@ li {
         }
     }
 }
+/*-----1KG GRID AREA-----------------------------------------------------*/
 .kgrid {
     grid-area: kgrid;
     display: flex;

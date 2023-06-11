@@ -1,3 +1,4 @@
+/*-----h1 PROMOCIONES-----------------------------------------------------*/
 .h1Promociones {
   margin: 5rem 0 0 1rem;
   -webkit-animation: bounce-in-fwd 2s 0.5s both;
@@ -107,7 +108,7 @@
     animation-timing-function: ease-out;
   }
 }
-
+/*-----CARD PROMOCIONES-----------------------------------------------------*/
 .cardPromociones {
   display: flex;
   flex-wrap: wrap;
@@ -141,7 +142,7 @@
       display: inline;
       font-size: 18px;
     }
-    /*-----HOVER----*/
+    /*-----HOVER-----------------------------------------------------*/
     &:hover {
       border: 0.5rem solid $color-marron;
       p {
